@@ -1,0 +1,37 @@
+/* Estilo para os ícones de contato */
+.contact-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.contact-icons a:hover {
+    color: #0077b5; /* Cor de hover para LinkedIn */
+}
+
+.contact-icons i {
+    transition: color 0.3s ease;
+}
+
+/* Personalização para cada ícone */
+.contact-icons a:hover .fa-envelope {
+    color: #007BFF; /* Cor do ícone de e-mail */
+}
+
+.contact-icons a:hover .fa-linkedin {
+    color: #0077b5; /* Cor do LinkedIn */
+}
+
+.contact-icons a:hover .fa-instagram {
+    color: #e4405f; /* Cor do Instagram */
+}
+
+.contact-icons a:hover .fa-phone {
+    color: #28a745; /* Cor do telefone */
+}
